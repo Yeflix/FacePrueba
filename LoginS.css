@@ -1,0 +1,32 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: "/IMG-2023082-WA0039.jpg";
+  background-color: #f29883;
+}
+div{
+  padding-top: 10%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+p{
+  font-size: 1.3rem;
+  align-items: center;
+}
+i{
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: maroon;
+}
+img {
+  margin: 10px;
+  margin-left: 15%;
+  margin-top: 15%;
+  z-index: -1;
+  width: 70%;
+  border-radius: 10%;
+}
