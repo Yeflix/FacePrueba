@@ -30,3 +30,30 @@ img {
   width: 70%;
   border-radius: 10%;
 }
+@media (min-width: 800px) {
+  body¨{
+  display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+img {
+    margin: 0px;
+    margin-left: 5%;
+    margin-top: 2%;
+    z-index: -1;
+    width: 40%;
+    border-radius: 10%;
+}
+  div {
+    padding-top: 3%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+    width: 50%;
+}
+
+
+}
